@@ -1,0 +1,357 @@
+/* Login Form Container */
+.login-form {
+    background: linear-gradient(135deg, #8b5cbe, #2575fc); /* Background gradient */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Larger shadow for elevation */
+    width: 400px;
+    margin: 100px auto;
+    color: white; /* Text color for contrast */
+    text-align: center;
+}
+
+/* Title Styling */
+.login-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    color: #333; /* Text color */
+    outline: none;
+}
+
+/* Input Field Focus Effect */
+.login-form input:focus {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on focus */
+}
+
+/* Button Styling */
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4b2b; /* Vivid red color */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.login-form button:hover {
+    background-color: #ff3a1a; /* Darker red on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 500px) {
+    .login-form {
+        width: 90%; /* Full width on smaller screens */
+        padding: 30px;
+    }
+}
+/* General form styling */
+/* CreateGrievance.css */
+
+/* Container for the form */
+.grievance-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #007bff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fieldset styling */
+.grievance-form fieldset {
+    border: 2px solid #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Legend styling */
+.grievance-form legend {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+/* Labels styling */
+.grievance-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input fields styling */
+.grievance-form input[type="text"]
+{
+    color: black
+}
+.grievance-form select
+{
+    color: black
+}
+.grievance-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2901ef;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.text1
+{
+    color:#f7f9fc;
+}
+/* Textarea styling */
+.grievance-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Submit button styling */
+.grievance-form button[type="submit"] {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.grievance-form button[type="submit"]:hover {
+    background-color: #e5eef1;
+}
+.button3 {
+    padding-inline: 5px;
+    padding-bottom: 20px;
+   /* Add space between buttons */
+}
+/* Login Form Container */
+.login-form {
+    background: linear-gradient(135deg, #1a829f, #2575fc); /* Background gradient */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Larger shadow for elevation */
+    width: 400px;
+    margin: 100px auto;
+    color: white; /* Text color for contrast */
+    text-align: center;
+}
+
+/* Title Styling */
+.login-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    color: #333; /* Text color */
+    outline: none;
+}
+
+/* Input Field Focus Effect */
+.login-form input:focus {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on focus */
+}
+
+/* Button Styling */
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4b2b; /* Vivid red color */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.login-form button:hover {
+    background-color: #ff3a1a; /* Darker red on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 500px) {
+    .login-form {
+        width: 90%; /* Full width on smaller screens */
+        padding: 30px;
+    }
+}
+.profile-container {
+    width: 200%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #2663a3;
+}
+
+.profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-info p {
+    font-size: 18px;
+}
+
+.profile-info strong {
+    font-weight: bold;
+}
+.profile-container {
+    padding: 25px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+.grievance-list {
+    margin-top: 20px;
+}
+
+.grievance-list ul {
+    list-style: none;
+    padding: 0;
+}
+.grievance-table{
+    color: #0056b3;
+}
+
+.grievance-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
+/* GrievanceList.css */
+.grievance-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.grievance-item {
+    border: 1px solid #902626;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.grievance-item h3 {
+    margin: 0;
+}
+
+.error-message {
+    color: red;
+}
+/* MyProfile.css */
+.profile-display {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    border-radius: 15px;
+    box-shadow: 0 10px 5px rgba(52, 110, 135, 0.1);
+    max-width: 100%;
+    margin: 20px auto;
+}
+.pro{
+    background-color: #e7ebf0;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.profile-display h3 {
+    font-size: 40px;
+    color: #f3f9f9;
+    margin-bottom: 20px;
+}
+
+.profile-display p {
+    font-size: 25px;
+    color: #f7f9fc;
+    margin: 5px 0;
+}
+
+.profile-display .error-message {
+    color: #d9534f; /* Bootstrap danger color for errors */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.search-bar {
+    margin: 20px 0;
+    border-color: #007bff;
+    margin-right: 100px; /* Adding 'px' to make it a valid CSS value */
+}
+
+.search-bar input {
+    width: 100%; /* Adjusting width to fit the container */
+    max-width: 600px; /* Sets a max width for better control */
+    padding: 12px; /* Slightly larger padding for better appearance */
+    border-radius: 8px; /* Softer, rounder edges */
+    border: 2px solid #007bff; /* Makes the border color blue */
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for focus effect */
+}
+
+/* Adding a focus style for better user experience */
+.search-bar input:focus {
+    outline: none;
+    border-color: #0056b3; /* Darker blue when focused */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3); /* Slightly stronger shadow when focused */
+}
+

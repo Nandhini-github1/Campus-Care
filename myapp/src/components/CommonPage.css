@@ -1,0 +1,67 @@
+/* Common Header Styles */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.college-info {
+    text-align: left;
+}
+
+.college-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.college-address {
+    margin: 0;
+    font-size: 14px;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ffc107;  /* Highlight the link on hover */
+}
+
+/* Main content padding */
+main {
+    padding: 20px;
+}

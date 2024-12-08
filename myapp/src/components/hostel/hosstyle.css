@@ -1,0 +1,71 @@
+/* Login Form Container */
+.login-form {
+    background: linear-gradient(135deg, #1a829f, #2575fc); /* Background gradient */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Larger shadow for elevation */
+    width: 400px;
+    margin: 100px auto;
+    color: white; /* Text color for contrast */
+    text-align: center;
+}
+
+/* Title Styling */
+.login-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    color: #333; /* Text color */
+    outline: none;
+}
+
+/* Input Field Focus Effect */
+.login-form input:focus {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on focus */
+}
+
+/* Button Styling */
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4b2b; /* Vivid red color */
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.login-form button:hover {
+    background-color: #ff3a1a; /* Darker red on hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 500px) {
+    .login-form {
+        width: 90%; /* Full width on smaller screens */
+        padding: 30px;
+    }
+}
+.search-bar {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+

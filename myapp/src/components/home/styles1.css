@@ -1,0 +1,63 @@
+/* Ensure full width for the header */
+header {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+   
+    border-bottom: 6px solid #ddd;
+}
+
+
+/* Style for the logo image */
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 20px;
+    border: solid rgba(255, 255, 255, 0.42);
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Style for the title */
+.header-title h1,h3{
+    flex: 1; /* Take up the remaining space */
+    text-align: left; 
+    color: rgb(0, 0, 0);/* Align text to the left */
+}
+
+
+/* Navigation bar styling */
+nav {
+    margin-top: 20px;
+    width: 100%; /* Full width of the container */
+    display: flex;
+    justify-content: center; /* Center the nav links */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 10px; /* Space between the links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #060202;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+.login-box{
+    border-radius: 10px;
+    border: solid rgba(255, 255, 255, 0.886);
+    background-color: rgb(56, 137, 139);
+  
+}
